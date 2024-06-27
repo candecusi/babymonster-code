@@ -130,7 +130,7 @@ span{
 .container-about {  
     display: grid;
     justify-content: center;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1fr 2.5fr;
     grid-template-rows: 0.1fr;
     gap: 5px 25px;
     grid-template-areas:
@@ -146,12 +146,12 @@ span{
   
 
 .img-left{
-    width: 23rem;
+    width: 21rem;
     border: 2px solid #1E1E1E;
 }
 
 .img-right{
-    width: 57rem;
+    width: 51.6rem;
     border: 2px solid #1E1E1E;
 }
 
@@ -251,6 +251,10 @@ span{
 .card{
     margin: 2vw;
     border: none;
+}
+
+.card h2{
+    font-size: 1.5rem;
 }
 
 /*FOOTER*/
@@ -662,17 +666,101 @@ footer h2{
     .img-left{
         width: 6.8rem;
         border: 2px solid #1E1E1E;
+        border: 1.5px solid #1E1E1E;
     }
     
     .img-right{
         width: 16.2rem;
-        border: 2px solid #1E1E1E;
+        border: 1.5px solid #1E1E1E;
     }
 
     .grid-about-p{
         padding: 5%;
         margin: 2% auto;
         font-size: 0.6rem;
+        border: 1.5px solid #1E1E1E;
+    }
+
+    /*AUDIO SECTION*/
+
+    #audio-section{
+        padding: 5% 10%;
+    }
+
+    #audio-section a{
+        padding: 1.2vh 18vw;
+    }
+
+    .audio-cover img{
+        width: 20px;
+        margin: 0%;
+    }
+
+    .audio{
+        margin: 8% 0%;
+    }
+
+    .audio h2{
+        line-height: 5vh;
+    }
+
+    audio{
+        width: 60vw;
+    }
+
+    .audio h2{
+        font-size: 1.2rem;
+    }
+
+    .border-section{
+        padding: 5vh 10vw;
+        width: 80vw;
+    }
+
+
+    /*VIDEO SECTION*/
+
+    .card{
+        margin: 2vw;
+        border: none;
+        height: 34vh;
+    }
+
+}
+
+@media screen and (max-width:375px) {
+
+    /*MAIN*/
+    .main-content{
+        top: 6vh;
+    }
+
+    .main-content h1{
+        font-size: 2rem;
+    }
+
+    .main-content h2{
+        font-size: 1rem;
+    }
+
+    /*ABOUT SECTION*/
+      
+    .img-left{
+        width: 5rem;
+        border: 2px solid #1E1E1E;
+        border: 1.5px solid #1E1E1E;
+    }
+    
+    .img-right{
+        width: 10rem;
+        border: 1.5px solid #1E1E1E;
+    }
+
+    .grid-about-p{
+        padding: 5%;
+        margin: 2% auto;
+        font-size: 0.6rem;
+        border: 1.5px solid #1E1E1E;
     }
 
     /*AUDIO SECTION*/
