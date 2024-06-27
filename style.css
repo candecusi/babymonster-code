@@ -651,6 +651,38 @@ footer h2{
 
 }
 
+@media screen and (max-width:576px) {
+
+    /*ABOUT SECTION*/
+      
+    .img-left{
+        width: 9.5rem;
+        border: 2px solid #1E1E1E;
+    }
+    
+    .img-right{
+        width: 23rem;
+        border: 2px solid #1E1E1E;
+    }
+
+}
+
+@media screen and (max-width:550px) {
+
+    /*ABOUT SECTION*/
+      
+    .img-left{
+        width: 8.5rem;
+        border: 2px solid #1E1E1E;
+    }
+    
+    .img-right{
+        width: 20rem;
+        border: 2px solid #1E1E1E;
+    }
+
+}
+
 @media screen and (max-width:412px) {
 
     /*MAIN*/
@@ -811,6 +843,24 @@ footer h2{
         margin: 2vw;
         border: none;
         height: 34vh;
+    }
+
+}
+
+@media screen and (max-width:550px) {
+
+    /*ABOUT SECTION*/
+      
+    .img-left{
+        width: 5.6rem;
+    }
+    
+    .img-right{
+        width: 13.7rem;
+    }
+
+    .grid-about-p{
+        margin: 4% auto;
     }
 
 }
