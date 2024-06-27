@@ -681,7 +681,43 @@ footer h2{
         border: 2px solid #1E1E1E;
     }
 
+    #about-section{
+        padding: 10%;
+    }
+
+    #about-section p{
+        font-size: 0.8rem;
+    }
+
 }
+
+@media screen and (max-width:500px) {
+
+    /*ABOUT SECTION*/
+
+    #about-section{
+        padding: 5%;
+    }
+
+    #about-section p{
+        font-size: 0.8rem;
+    }
+
+    #about-section .img-left{
+        width: 24vw;
+    }
+
+    #about-section .img-right{
+        width: 58vw;
+    }
+    
+
+
+
+}
+
+
+
 
 @media screen and (max-width:412px) {
 
