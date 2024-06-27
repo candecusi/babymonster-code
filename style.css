@@ -543,6 +543,11 @@ footer h2{
         padding: 2vh 12vw;
     }
 
+    #audio-section img{
+        margin-right: 0vw;
+        width: 220px;
+    }
+
     .audio-cover{
         display: block;
         text-align: center;
@@ -770,7 +775,7 @@ footer h2{
     }
 
     #audio-section a{
-        padding: 1.2vh 18vw;
+        padding: 1.2vh 15vw;
     }
 
     .audio-cover img{
