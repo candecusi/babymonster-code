@@ -490,7 +490,7 @@ footer h2{
 
     .main-content{
         position: absolute;
-        top: 20vh;
+        top: 18vh;
         left: 0;
         text-align: center;
         color: var(--white);
@@ -595,12 +595,12 @@ footer h2{
     /*ABOUT SECTION*/
       
     .img-left{
-        width: 9rem;
+        width: 7.9rem;
         border: 2px solid #1E1E1E;
     }
     
     .img-right{
-        width: 22.2rem;
+        width: 19.2rem;
         border: 2px solid #1E1E1E;
     }
 
@@ -664,19 +664,19 @@ footer h2{
     /*ABOUT SECTION*/
       
     .img-left{
-        width: 6.8rem;
+        width: 6rem;
         border: 2px solid #1E1E1E;
         border: 1.5px solid #1E1E1E;
     }
     
     .img-right{
-        width: 16.2rem;
+        width: 14.8rem;
         border: 1.5px solid #1E1E1E;
     }
 
     .grid-about-p{
         padding: 5%;
-        margin: 2% auto;
+        margin: 3% auto;
         font-size: 0.6rem;
         border: 1.5px solid #1E1E1E;
     }
