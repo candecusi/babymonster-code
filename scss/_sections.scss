@@ -1,0 +1,128 @@
+/*4 SECTIONS*/
+
+/*ABOUT SECTION*/
+
+#about-section{
+    padding: 3%;
+
+      .grid-about-p{
+            padding: 3%;
+            margin-top: 2%;
+            background-color: var(--light-blue);
+            border: 2px solid #1E1E1E;
+        }
+       
+}
+
+.container-about {  
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 1fr 2.5fr;
+    grid-template-rows: 0.1fr;
+    gap: 5px 25px;
+    grid-template-areas:
+      "img-left img-right"
+      "about-section-p about-section-p";
+
+      .about-section-p { grid-area: about-section-p; }
+  
+      .img-right { grid-area: img-right; }
+      
+      .img-left { grid-area: img-left; }
+
+      .img-left{
+        width: 21rem;
+        border: 2px solid #1E1E1E;
+    }
+    
+    .img-right{
+        width: 51.6rem;
+        border: 2px solid #1E1E1E;
+    }
+  }
+
+
+/*GRID MEMEBERS*/
+
+.members{
+    display: grid;
+    grid-template-columns: repeat(4, 0fr);
+    grid-gap: 40px;
+    text-align: center;
+    justify-content: center;
+    padding: 3%;
+}
+
+.member-card{
+    display: block;
+    img{
+        width: 10vw;
+        border: 1.5px solid #B61A22;
+        margin-bottom: 10px;
+    }
+    a{
+        font-size: 1rem;
+        font-weight: 600;
+        text-decoration: none;
+        color: #1E1E1E;
+        border-bottom: 2px solid #ffffff00;
+        &:hover{
+            color: #B61A22;
+            border-bottom: 2px solid #B61A22;
+            transition: all 300ms ease-out;
+        }
+    }
+}
+
+/*AUDIO SECTION*/
+
+#audio-section{
+    background-color: var(--light-blue);
+    padding: 5% 23%;
+    img{
+        width: 250px;
+        margin-right: 5vw;
+        border: 1px solid #1E1E1E;
+    }
+    a{
+        margin-left: 37vw;
+    }
+
+    .border-section{
+        border: 1px solid #B61A22;
+        padding: 8vh;
+    }
+}
+
+.audio-cover{
+    display: flex;
+    justify-content: center;
+}
+
+.audio{
+        margin-top: 3%;
+        h2{
+            font-size: 1.5rem;
+            line-height: 8vh;
+        }
+    }
+
+
+/*VIDEO SECTION*/
+
+#video-section{
+    display: flex;
+    padding: 5%;
+    justify-content: center;
+    iframe{
+        border: 2px solid #B61A22;
+        margin-bottom: 4%;
+    }
+    .card{
+        margin: 2vw;
+        border: none;
+        h2{
+            font-size: 1.5rem;
+        }
+    }
+}

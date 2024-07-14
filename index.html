@@ -6,8 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--LINK BOOTSRAP-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!--LINK ANIMATE.CSS-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <!--LINK AOS-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!--LINK CSS-->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <title>BABYMONSTER</title>
 </head>
@@ -22,16 +26,17 @@
                     <div id="btn_menu_close"><i class='bx bx-x'></i></div>
             <ul>
                 <li><a href="#">Inicio</a></li>
-                <li><a href="#about-section">Sobre</a></li>
-                <li><a href="#audio-section">Audio</a></li>
-                <li><a href="#video-section">Video</a></li>
-                <li><a href="#contacto">Contacto</a></li>
+                <li><a href="pages/about-bm.html" target="_blank">Sobre</a></li>
+                <li><a href="pages/members.html" target="_blank">Integrantes</a></li>
+                <li><a href="pages/gallery.html" target="_blank">Galería</a></li>
+                <li><a href="pages/video.html" target="_blank">Video</a></li>        
             </ul>
             </div>
         </nav>
-            <div class="main-content container-fluid">
+            <div class="main-content container-fluid"data-aos="fade-up"
+            data-aos-duration="2000">
                 <h1>LIKE THAT</h1>
-                <h2>BABYMONSTER</h2>
+                <h2  class="animate__animated animate__fadeInUp">BABYMONSTER</h2>
                 <a class="red-btn" href="#about-section">Ver Más</a>
             </div>  
         </header>
@@ -44,9 +49,9 @@
         
         <section id="about-section">
             <div class="container-about">
-                <img class="img-left" src="https://pbs.twimg.com/media/GORZ8yua4AA_GL2?format=jpg" alt="foto grupal">
+                <img class="img-left" src="https://pbs.twimg.com/media/GORZ8yua4AA_GL2?format=jpg" alt="foto grupal" data-aos="zoom-in">
 
-                <img class="img-right" src="https://pbs.twimg.com/media/GOwT6fGbEAAq_2n.jpg" alt="foto grupal">
+                <img class="img-right" src="https://pbs.twimg.com/media/GOwT6fGbEAAq_2n.jpg" alt="foto grupal" data-aos="zoom-in">
             </div>
             <div class="grid-about-p">
                 <p class="text-center">" <span>LIKE THAT</span> " es la tercera canción del <span>grupo</span> femenino <span>surcoreano
@@ -58,42 +63,42 @@
         <h2 class="text-center p-3">Integrantes</h2>
 
         <div class="members">
-            <div class="member-card">
+            <div class="member-card" data-aos="zoom-in">
                 <img src="img/ahyeon.jpg" alt="AHYEON">
                 <a href="pages/members.html" target="_blank">AHYEON</a>
             </div>
 
-            <div class="member-card">
+            <div class="member-card" data-aos="zoom-in">
                 <img src="img/ruka.jpg" alt="RUKA">
                 <a href="pages/members.html" target="_blank">RUKA</a>
             </div>
 
-            <div class="member-card">
+            <div class="member-card" data-aos="zoom-in">
                 <img src="img/chiquita.jpg" alt="CHIQUITA">
                 <a href="pages/members.html" target="_blank">CHIQUITA</a>
             </div>
 
-            <div class="member-card">
+            <div class="member-card" data-aos="zoom-in">
                 <img src="img/rami.jpg" alt="RAMI">
                 <a href="pages/members.html" target="_blank">RAMI</a>
             </div>
 
-            <div class="member-card">
+            <div class="member-card" data-aos="zoom-in">
                 <img src="img/pharita.jpg" alt="PHARITA">
                 <a href="pages/members.html" target="_blank">PHARITA</a>
             </div>
 
-            <div class="member-card">
+            <div class="member-card" data-aos="zoom-in">
                 <img src="img/rora.jpg" alt="RORA">
                 <a href="pages/members.html" target="_blank">RORA</a>
             </div>
 
-            <div class="member-card">
+            <div class="member-card" data-aos="zoom-in">
                 <img src="img/asa.jpg" alt="ASA">
                 <a href="pages/members.html" target="_blank">ASA</a>
             </div>
 
-            <div class="member-card group-card">
+            <div class="member-card group-card" data-aos="zoom-in">
                 <img src="https://pbs.twimg.com/media/GIuEw43bQAAxUxp?format=jpg" alt="foto grupal">
                 <a href="pages/members.html" target="_blank">Ver Más →</a>
             </div>
@@ -102,7 +107,7 @@
 
         <section id="audio-section">
             <h2 class="text-center pb-5">AUDIO</h2>
-            <div class="border-section">
+            <div class="border-section" data-aos="zoom-in-down">
             <div class="audio-cover">
                 <img src="https://images.genius.com/fc1e5ee3463322fe2dabbef6e37bcefc.1000x1000x1.jpg"
                 alt="portada BABYMONS7ER">
@@ -123,19 +128,19 @@
 
 
         <section id="video-section">
-            <div class="card">
+            <div class="card" data-aos="fade-down" data-aos-duration="1000">
                 <iframe class="card-img-top" width="560" height="315" src="https://www.youtube.com/embed/M8r3x4Re8-I?si=Ba3e6190EMF35U6k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                 <h2>BABYMONSTER - 'LIKE THAT' EXCLUSIVE PERFORMANCE VIDEO</h2>
             </div>
 
-            <div class="card">
+            <div class="card" data-aos="fade-down" data-aos-duration="1000">
                 <iframe class="card-img-top" width="560" height="315" src="https://www.youtube.com/embed/gnJOBNz1q0A?si=yH2Hqa6936ATsOew" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                 <h2>BABYMONSTER - ‘LIKE THAT’ DANCE PERFORMANCE VIDEO</h2>
             </div>
         </section>
 
 
-        <footer id="contacto">
+        <footer>
             <h2>BABYMONSTER</h2>
             <div class="social">        
                 <a href="https://www.youtube.com/@BABYMONSTER" target="_blank"><i class='bx bxl-youtube'></i></a>
@@ -171,5 +176,10 @@
 
     <!--LINK BOOTSRAP SCRIPT-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
 </body>
 </html>

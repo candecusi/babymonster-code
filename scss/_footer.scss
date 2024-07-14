@@ -1,0 +1,27 @@
+/*FOOTER*/
+
+footer{
+    background-color: var(--gray);
+    padding: 5vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    h2{
+        font-size: 1.5rem;
+        color: var(--white);
+        font-weight: 400;
+    }
+
+    .social{
+        color: var(--white);
+        font-size: 1.8rem;
+        margin: 5px;
+        .bx{
+            @extend .social;
+            &:hover{
+                color: var(--red);
+                transition: all 300ms ease-in;
+            }
+        }
+    }
+}

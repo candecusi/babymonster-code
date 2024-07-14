@@ -1,0 +1,63 @@
+/*GALLERY BABYMONSTER PAGE*/
+
+/*GALLERY GRID*/
+
+#gallery{
+    padding: 5%;
+    background-color: var(--light-blue);
+}
+
+.card-imgs{
+    display: grid;
+    grid-template-columns: repeat(4, 0fr);
+    gap: 10px;
+    text-align: center;
+}
+
+.img {
+    img{
+    width: 21vw;
+    height: 100%;
+    object-fit: cover;
+    }
+}
+
+/*RESPONSIVE GALLERY GRID*/
+
+@media screen and (max-width:1200px) {
+    .card-imgs{
+        grid-template-columns: repeat(4, 0fr);
+        justify-content: center;
+    }
+
+    .img {
+        img{
+            width: 20.5vw;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+}
+
+@media screen and (max-width:768px) {
+    .card-imgs{
+        grid-template-columns: repeat(3, 0fr);
+    }
+
+    .img{
+         img{
+            width: 25vw;
+            height: 100%;
+            object-fit: cover;
+            }
+        }
+    
+}
+
+
+
+
+
+
+
+
