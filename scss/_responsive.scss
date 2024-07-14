@@ -562,7 +562,7 @@
     #audio-section{
         padding: 5% 10%;
         a{
-            padding: 2vh 22vw;
+            padding: 2vh 18vw;
         }
     }
 
@@ -624,6 +624,23 @@
     }
 }
 
+@media screen and (max-width:340px){
+
+    /*AUDIO SECTION*/
+    #audio-section {
+        img{
+        width: 40vw;
+        margin: 0%;
+        }
+        h2{
+            font-size: 0.8rem;
+        }
+        a{
+            padding: 2vh 12vw;
+        }
+    }
+}
+
 @media screen and (max-width:310px){
 
     /*AUDIO SECTION*/
@@ -636,7 +653,7 @@
             font-size: 0.8rem;
         }
         a{
-            padding: 2vh 14vw;
+            padding: 2vh 12vw;
         }
     }
 
