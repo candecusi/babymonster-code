@@ -259,11 +259,11 @@
         padding: 5% 20%;
         a{
             margin-left: 0vw;
-            padding: 2vh 10vw;
+            padding: 2vh 12vw;
         }
         img{
             margin-right: 0vw;
-            width: 200px;
+            width: 220px;
         }
     }
 
@@ -275,7 +275,7 @@
     .audio{
         margin: 8% 0%;
         h2{
-            font-size: 1rem;
+            font-size: 1.2rem;
         }
     }
 
@@ -562,7 +562,7 @@
     #audio-section{
         padding: 5% 10%;
         a{
-            padding: 2vh 18vw;
+            padding: 2vh 22vw;
         }
     }
 
@@ -627,55 +627,17 @@
 @media screen and (max-width:340px){
 
     /*AUDIO SECTION*/
-    #audio-section{
-        padding: 5% 20%;
-        img{
-            width: 20px;
-        }
-        h2{
-            font-size: 0.8rem;
-        }
-        a{
-            padding: 2vh 10vw;
-        }
-    }
-
-    .audio {
-        h2{
-            font-size: 0.8rem;
-        }
-    }
-}
-
-@media screen and (max-width:310px){
-
-    /*AUDIO SECTION*/
     #audio-section {
-        justify-content: center;
         img{
-        width: 15vw;
+        width: 60vw;
         margin: 0%;
         }
         h2{
             font-size: 0.8rem;
         }
         a{
-            padding: 2vh 8vw;
-        }
-    }
-
-    /*GRID MEMEBERS*/
-
-    .members{
-        grid-template-columns: repeat(2, 0fr);
-        grid-gap: 20px;
-    }
-
-    .member-card {
-    
-        img{
-            width: 40vw;
-            margin-bottom: 10px;
+            padding: 2vh 20vw;
         }
     }
 }
+

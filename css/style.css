@@ -734,26 +734,17 @@ footer .social .bx:hover {
     margin: 0px;
   }
 }
-@media screen and (max-width: 310px) {
+@media screen and (max-width: 340px) {
   /*AUDIO SECTION*/
   #audio-section img {
-    width: 56vw;
+    width: 60vw;
     margin: 0%;
   }
   #audio-section h2 {
     font-size: 0.8rem;
   }
   #audio-section a {
-    padding: 2vh 16vw;
-  }
-  /*GRID MEMEBERS*/
-  .members {
-    grid-template-columns: repeat(2, 0fr);
-    grid-gap: 20px;
-  }
-  .member-card img {
-    width: 40vw;
-    margin-bottom: 10px;
+    padding: 2vh 20vw;
   }
 }
 /*ABOUT BABYMONSTER PAGE*/
