@@ -124,6 +124,37 @@
 
 }
 
+@media screen and (max-width:820px){
+    /*AUDIO SECTION*/
+
+    #audio-section{
+        padding: 5%;
+        a{
+            margin-left: 50vw;
+        }
+        img{
+            height: 200px;
+        }
+    }
+
+    .audio {
+        margin-bottom: 30px;
+        h2{
+            font-size: 1.3rem;
+            line-height: 2;
+        }
+    }
+
+    /*VIDEO SECTION*/
+
+    .card{
+        height: 50vh;
+        h2{
+            font-size: 1.5rem;
+        }
+    }
+}
+
 @media screen and (max-width:768px) {
 
     /*MENU*/
@@ -263,7 +294,7 @@
         }
         img{
             margin-right: 0vw;
-            width: 220px;
+            width: 200px;
         }
     }
 
@@ -446,7 +477,7 @@
 
 
 
-@media screen and (max-width:412px) {
+@media screen and (max-width:430px) {
 
     /*MAIN*/
     .main-content{
@@ -456,6 +487,10 @@
         }
         h2{
             font-size: 1rem;
+        }
+        a{
+            font-size: 0.8rem;
+            padding: 1vh 3vw;
         }
     }
 
@@ -484,7 +519,7 @@
     #audio-section{
         padding: 5% 10%;
         a{
-            padding: 1.2vh 20vw;
+            padding: 1.2vh 12vw;
         }
     }
 
@@ -523,121 +558,44 @@
 
 }
 
-@media screen and (max-width:375px) {
-
-    /*MAIN*/
-    .main-content{
-        top: 12vh;
-        h1{
-            font-size: 2rem;
-        }
-        h2{
-            font-size: 1rem;
-        }
-    }
-
-
-    /*ABOUT SECTION*/
-      
-    .img-left{
-        width: 5rem;
-        border: 2px solid #1E1E1E;
-        border: 1.5px solid #1E1E1E;
-    }
-    
-    .img-right{
-        width: 10rem;
-        border: 1.5px solid #1E1E1E;
-    }
-
-    .grid-about-p{
-        padding: 5%;
-        margin: 2% auto;
-        font-size: 0.6rem;
-        border: 1.5px solid #1E1E1E;
-    }
+@media screen and (max-width:360px) {
 
     /*AUDIO SECTION*/
 
     #audio-section{
         padding: 5% 10%;
         a{
-            padding: 2vh 18vw;
+            padding: 1.2vh 15vw;
         }
-    }
-
-    .audio-cover {
         img{
-        width: 20px;
-        margin: 0%;
+            width: 180px;
+        }
+        .border-section{
+            padding: 6vh 10vw;
         }
     }
 
     .audio{
-        margin: 8% 0%;
+        margin: 0%;
         h2{
             line-height: 5vh;
-            font-size: 1.2rem;
+            font-size: 1rem;
         }
     }
 
     audio{
-        width: 30vw;
+        width: 60vw;
     }
 
-    .border-section{
-        padding: 5vh 10vw;
-        width: 80vw;
-    }
+    
 
 
     /*VIDEO SECTION*/
 
-    #video-section{
-        .card{
-            margin: 40px 10px;
-            border: none;
-            height: 40vh;
-            h2{
-                font-size: 1rem;
-            }
-        }
+    .card{
+        margin: 2vh;
+        border: none;
+        height: 50vh;
     }
 
-    /*BUTTONS*/
-    .red-btn{
-        padding: 2vh 3vw;
-        font-size: 0.8rem;
-    }
-
-    footer{
-        h2{
-            font-size: 1.2rem;
-        }
-        .social {
-            .bx {
-                color: var(--white);
-                font-size: 1.2rem;
-                margin: 0px;
-            }
-        }
-    }
 }
-
-@media screen and (max-width:340px){
-
-    /*AUDIO SECTION*/
-    #audio-section {
-        img{
-        width: 20vw;
-        margin: 0%;
-        }
-        h2{
-            font-size: 0.8rem;
-        }
-        a{
-            padding: 2vh 20vw;
-        }
-    }
-}
-

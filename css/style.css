@@ -343,6 +343,32 @@ footer .social .bx:hover {
     font-size: 1.5rem;
   }
 }
+@media screen and (max-width: 820px) {
+  /*AUDIO SECTION*/
+  #audio-section {
+    padding: 5%;
+  }
+  #audio-section a {
+    margin-left: 50vw;
+  }
+  #audio-section img {
+    height: 200px;
+  }
+  .audio {
+    margin-bottom: 30px;
+  }
+  .audio h2 {
+    font-size: 1.3rem;
+    line-height: 2;
+  }
+  /*VIDEO SECTION*/
+  .card {
+    height: 50vh;
+  }
+  .card h2 {
+    font-size: 1.5rem;
+  }
+}
 @media screen and (max-width: 768px) {
   /*MENU*/
   .logo {
@@ -461,7 +487,7 @@ footer .social .bx:hover {
   }
   #audio-section img {
     margin-right: 0vw;
-    width: 220px;
+    width: 200px;
   }
   .audio-cover {
     display: block;
@@ -600,7 +626,7 @@ footer .social .bx:hover {
     height: 70vh;
   }
 }
-@media screen and (max-width: 412px) {
+@media screen and (max-width: 430px) {
   /*MAIN*/
   .main-content {
     top: 8vh;
@@ -610,6 +636,10 @@ footer .social .bx:hover {
   }
   .main-content h2 {
     font-size: 1rem;
+  }
+  .main-content a {
+    font-size: 0.8rem;
+    padding: 1vh 3vw;
   }
   /*ABOUT SECTION*/
   .img-left {
@@ -632,7 +662,7 @@ footer .social .bx:hover {
     padding: 5% 10%;
   }
   #audio-section a {
-    padding: 1.2vh 20vw;
+    padding: 1.2vh 12vw;
   }
   .audio-cover img {
     width: 20px;
@@ -659,92 +689,35 @@ footer .social .bx:hover {
     height: 50vh;
   }
 }
-@media screen and (max-width: 375px) {
-  /*MAIN*/
-  .main-content {
-    top: 12vh;
-  }
-  .main-content h1 {
-    font-size: 2rem;
-  }
-  .main-content h2 {
-    font-size: 1rem;
-  }
-  /*ABOUT SECTION*/
-  .img-left {
-    width: 5rem;
-    border: 2px solid #1E1E1E;
-    border: 1.5px solid #1E1E1E;
-  }
-  .img-right {
-    width: 10rem;
-    border: 1.5px solid #1E1E1E;
-  }
-  .grid-about-p {
-    padding: 5%;
-    margin: 2% auto;
-    font-size: 0.6rem;
-    border: 1.5px solid #1E1E1E;
-  }
+@media screen and (max-width: 360px) {
   /*AUDIO SECTION*/
   #audio-section {
     padding: 5% 10%;
   }
   #audio-section a {
-    padding: 2vh 18vw;
+    padding: 1.2vh 15vw;
   }
-  .audio-cover img {
-    width: 20px;
-    margin: 0%;
+  #audio-section img {
+    width: 180px;
+  }
+  #audio-section .border-section {
+    padding: 6vh 10vw;
   }
   .audio {
-    margin: 8% 0%;
+    margin: 0%;
   }
   .audio h2 {
     line-height: 5vh;
-    font-size: 1.2rem;
-  }
-  audio {
-    width: 30vw;
-  }
-  .border-section {
-    padding: 5vh 10vw;
-    width: 80vw;
-  }
-  /*VIDEO SECTION*/
-  #video-section .card {
-    margin: 40px 10px;
-    border: none;
-    height: 40vh;
-  }
-  #video-section .card h2 {
     font-size: 1rem;
   }
-  /*BUTTONS*/
-  .red-btn {
-    padding: 2vh 3vw;
-    font-size: 0.8rem;
+  audio {
+    width: 60vw;
   }
-  footer h2 {
-    font-size: 1.2rem;
-  }
-  footer .social .bx {
-    color: var(--white);
-    font-size: 1.2rem;
-    margin: 0px;
-  }
-}
-@media screen and (max-width: 340px) {
-  /*AUDIO SECTION*/
-  #audio-section img {
-    width: 20vw;
-    margin: 0%;
-  }
-  #audio-section h2 {
-    font-size: 0.8rem;
-  }
-  #audio-section a {
-    padding: 2vh 20vw;
+  /*VIDEO SECTION*/
+  .card {
+    margin: 2vh;
+    border: none;
+    height: 50vh;
   }
 }
 /*ABOUT BABYMONSTER PAGE*/
