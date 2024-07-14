@@ -691,7 +691,7 @@ footer .social .bx:hover {
     padding: 5% 10%;
   }
   #audio-section a {
-    padding: 2vh 22vw;
+    padding: 2vh 18vw;
   }
   .audio-cover img {
     width: 20px;
@@ -705,7 +705,7 @@ footer .social .bx:hover {
     font-size: 1.2rem;
   }
   audio {
-    width: 60vw;
+    width: 30vw;
   }
   .border-section {
     padding: 5vh 10vw;
@@ -737,7 +737,7 @@ footer .social .bx:hover {
 @media screen and (max-width: 340px) {
   /*AUDIO SECTION*/
   #audio-section img {
-    width: 60vw;
+    width: 20vw;
     margin: 0%;
   }
   #audio-section h2 {
