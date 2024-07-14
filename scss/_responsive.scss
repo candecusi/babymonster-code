@@ -627,16 +627,22 @@
 @media screen and (max-width:340px){
 
     /*AUDIO SECTION*/
-    #audio-section {
+    #audio-section{
+        padding: 5% 20%;
         img{
-        width: 40vw;
-        margin: 0%;
+            width: 20px;
         }
         h2{
             font-size: 0.8rem;
         }
         a{
-            padding: 2vh 12vw;
+            padding: 2vh 10vw;
+        }
+    }
+
+    .audio {
+        h2{
+            font-size: 0.8rem;
         }
     }
 }
@@ -645,15 +651,16 @@
 
     /*AUDIO SECTION*/
     #audio-section {
+        justify-content: center;
         img{
-        width: 50vw;
+        width: 15vw;
         margin: 0%;
         }
         h2{
             font-size: 0.8rem;
         }
         a{
-            padding: 2vh 12vw;
+            padding: 2vh 8vw;
         }
     }
 
