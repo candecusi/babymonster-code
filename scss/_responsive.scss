@@ -570,6 +570,7 @@
         }
         img{
             width: 180px;
+            height: 180px;
         }
         .border-section{
             padding: 6vh 10vw;
@@ -586,17 +587,33 @@
 
     audio{
         width: 60vw;
+        margin-bottom: 10px;
     }
-
-    
 
 
     /*VIDEO SECTION*/
 
-    .card{
-        margin: 2vh;
-        border: none;
-        height: 50vh;
+    #video-section{
+        .card{
+            margin: 10vh 2vw;
+            border: none;
+            height: 50vh;
+            h2{
+                font-size: 1rem;
+            }
+        }
+    }
+
+    /*FOOTER*/
+    footer{
+        h2{
+            font-size: 1.2rem;
+        }
+        .social{
+            .bx{
+                font-size: 1.2rem;
+            }
+        }
     }
 
 }

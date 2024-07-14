@@ -700,6 +700,7 @@ footer .social .bx:hover {
   }
   #audio-section img {
     width: 180px;
+    height: 180px;
   }
   #audio-section .border-section {
     padding: 6vh 10vw;
@@ -713,12 +714,23 @@ footer .social .bx:hover {
   }
   audio {
     width: 60vw;
+    margin-bottom: 10px;
   }
   /*VIDEO SECTION*/
-  .card {
-    margin: 2vh;
+  #video-section .card {
+    margin: 10vh 2vw;
     border: none;
     height: 50vh;
+  }
+  #video-section .card h2 {
+    font-size: 1rem;
+  }
+  /*FOOTER*/
+  footer h2 {
+    font-size: 1.2rem;
+  }
+  footer .social .bx {
+    font-size: 1.2rem;
   }
 }
 /*ABOUT BABYMONSTER PAGE*/
